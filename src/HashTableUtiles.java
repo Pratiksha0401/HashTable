@@ -25,5 +25,12 @@ public static void main(String[] args) {
     System.out.println("Frequency count for Sentence 1 \nTo be or not to be");
     String string = "To be or not to be";
     countWordFreq(hashtable,string);
+    
+    System.out.println("\nFrequency count for Sentence 2 \n"
+    		+ "Paranoids are not paranoid because they are paranoid but because they keep "
+    		+ "putting themselves deliberately into paranoid avoidable situations ");
+    String string1 = "Paranoids are not paranoid because they are paranoid but because they keep "
+    		+ "putting themselves deliberately into paranoid avoidable situations";
+    countWordFreq(hashtable,string1);
 	}
 }
